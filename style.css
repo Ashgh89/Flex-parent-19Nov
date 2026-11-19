@@ -1,0 +1,30 @@
+/* EXAMPLE-1 */
+.container {
+  border: 2px solid red;
+  height: 100px;
+  display: flex;
+  /* flex-start (default) - center - flex-end - space-between - space-around - space-evenly */
+  /* Horizontal (main-axis) */
+  justify-content: center;
+
+  /* Vertical */
+  align-items: center;
+}
+
+/* EXAMPLE-2 */
+.menu {
+  display: flex;
+  background-color: burlywood;
+  font-size: 1.5rem;
+  padding: 52px;
+}
+
+.listItem,
+.lastItem {
+  text-decoration: none;
+  color: red;
+}
+
+.lastItem {
+  margin-left: auto;
+}
